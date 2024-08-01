@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Traveloka</title>
+  </head>
+  <body>
+    <!-- Ini Bagian Navigation Bar -->
+    <nav class="container">
+      <div class="logo">moqups</div>
+      <ul class="links">
+        <li>
+          <a href="#Home" onclick="scrollToSection(event, 'Home')">Home</a>
+        </li>
+        <li>
+          <a href="#Our-Package" onclick="scrollToSection(event, 'Our-Package')"
+            >Our Package</a
+          >
+        </li>
+        <li>
+          <a href="#foot" onclick="scrollToSection(event, 'foot')">Call Us</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Ini Bagian Isi Konten -->
+    <!-- Kotak Bagian Atas -->
+    <section class="isi bazel" id="Home">
+      <ul class="bagian">
+        <li class="judul"><h1>Your Trusted Travel Agent's</h1></li>
+        <li class="sub-judul"><p>Your happiness is our happiness</p></li>
+      </ul>
+      <!-- Kotak Bagian Tengah -->
+      <!-- Kotak Kedua -->
+      <div class="content-section">
+        <div class="w-60">
+          <div class="max-overflow">
+            <div class="kotak-gambar">
+              <img src="visual.jpg" class="konten" />
+              <img src="visual.jpg" class="konten" />
+              <img src="visual.jpg" class="konten" />
+              <img src="visual.jpg" class="konten" />
+              <img src="visual.jpg" class="konten" />
+            </div>
+          </div>
+          <div>
+            <p class="bawah-gambar">
+              "Liburan jadi menyenangkan besama Travel Agentku."
+            </p>
+          </div>
+
+          <!-- Kotak Bagian Ketiga -->
+          <div class="profile">
+            <img src="visual.jpg" class="pp" />
+            <div class="data-profile">
+              <h4 class="margin-none">Muhammad Akbarrudin</h4>
+              <p class="margin-none">Mahasiswa Baru, 33</p>
+            </div>
+          </div>
+          <div class="bottom-line">
+            <div class="underline"></div>
+          </div>
+          <div class="description">
+            <h4>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              aperiam eaque consectetur aspernatur minus consequuntur quisquam
+              porro! Aspernatur libero debitis modi facere ex, rem laudantium,
+              ab quo, alias dignissimos laboriosam!
+            </h4>
+          </div>
+          <div class="information">
+            <div class="profile">
+              <img src="visual.jpg" class="pp m-5" />
+              <div class="data-profile">
+                <p class="margin-none">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos, quis!
+                </p>
+              </div>
+            </div>
+            <div class="profile">
+              <img src="visual.jpg" class="pp m-5" />
+              <div class="data-profile">
+                <p class="margin-none">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos, quis!
+                </p>
+              </div>
+            </div>
+            <div class="profile">
+              <img src="visual.jpg" class="pp m-5" />
+              <div class="data-profile">
+                <p class="margin-none">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos, quis!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-40">
+          <div class="contact-us">
+            <form class="form-contact" onsubmit="return validateForm(event)">
+              <h3 class="margin-none">Contact Us</h3>
+              <p>Sales Akan Menghubungi Anda 1 X 24 Jam</p>
+              <div class="form-input">
+                <div class="input-text">
+                  <label for="name">Your Name</label>
+                  <input
+                    type="text"
+                    placeholder="First & Last Name"
+                    id="name"
+                    name="name"
+                  />
+                  <span class="error" id="nameError">Name is required</span>
+                </div>
+                <div class="input-text">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="text"
+                    placeholder="example@gmail.com"
+                    id="email"
+                    name="email"
+                  />
+                  <span class="error" id="emailError"
+                    >Valid email is required</span
+                  >
+                </div>
+                <div class="input-text">
+                  <label for="interest">What are You Interested In</label>
+                  <select id="interest" name="interest">
+                    <option value="">Select an option</option>
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                  </select>
+                  <span class="error" id="interestError"
+                    >Please select an option</span
+                  >
+                </div>
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="sec-section" id="Our-Package">
+        <h2>Our Package</h2>
+      </div>
+      <div class="isi bazel">
+        <div class="section-location">
+          <div class="first-row">
+            <div class="items-center">
+              <img src="visual.jpg" class="pp" />
+              <div class="data-profile">
+                <h4 class="margin-none">Muhammad Akbarrudin</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Repellat, rem.
+                </p>
+              </div>
+            </div>
+            <div class="items-center">
+              <img src="visual.jpg" class="pp" />
+              <div class="data-profile">
+                <h4 class="margin-none">Muhammad Akbarrudin</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Repellat, rem.
+                </p>
+              </div>
+            </div>
+            <div class="items-center">
+              <img src="visual.jpg" class="pp" />
+              <div class="data-profile">
+                <h4 class="margin-none">Muhammad Akbarrudin</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Repellat, rem.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="underline-mid">
+            <div class="underline-custom"></div>
+          </div>
+          <div class="first-row">
+            <div class="items-center">
+              <img src="visual.jpg" class="pp" />
+              <div class="data-profile">
+                <h4 class="margin-none">Muhammad Akbarrudin</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Repellat, rem.
+                </p>
+              </div>
+            </div>
+            <div class="items-center">
+              <img src="visual.jpg" class="pp" />
+              <div class="data-profile">
+                <h4 class="margin-none">Muhammad Akbarrudin</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Repellat, rem.
+                </p>
+              </div>
+            </div>
+            <div class="items-center">
+              <img src="visual.jpg" class="pp" />
+              <div class="data-profile">
+                <h4 class="margin-none">Muhammad Akbarrudin</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Repellat, rem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="near-foot">
+      <div class="isian">
+        <h1 class="margin-none">Your Closing Argument Headline</h1>
+        <p class="margin-none">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis animi
+          tempore soluta nam veritatis hic itaque eligendi consectetur aliquid
+          cum ab quod, accusamus saepe neque sunt, molestias iusto amet at?
+        </p>
+        <div class="aksi">
+          <button>Call to Action</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="kaki" id="foot">
+      <div class="last-head">
+        <h1>moqups</h1>
+      </div>
+      <div class="last-info">
+        <p>Terms of Service</p>
+        <p>Privacy Policy</p>
+      </div>
+      <div class="last-info">
+        <p>2019</p>
+        <p>moqups</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
